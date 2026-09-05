@@ -23,6 +23,13 @@ digital: tratamento de evidência e cadeia de custódia.
 
 ### Projetos em destaque
 
+**[lgpd-scan](https://github.com/Melquiadesjn/lgpd-scan)**
+Diagnóstico de conformidade LGPD sobre a superfície pública de um site:
+encarregado indicado, canal do titular, rastreadores antes do consentimento e
+higiene de transporte. Cada achado cita a base normativa — LGPD, Resoluções
+CD/ANPD nº 2/2022 e nº 18/2024 e os guias orientativos da Autoridade.
+`Python` · `LGPD` · `compliance`
+
 **[Analisador de Risco CNPJ](https://github.com/Melquiadesjn/analisador-risco-cnpj)**
 Ferramenta OSINT que consulta Receita Federal, Portal da Transparência, DataJud,
 PNCP e listas de sanções (CEIS, CNEP, CEPIM, CEAF), calcula score de risco por
