@@ -23,18 +23,23 @@ digital: tratamento de evidência e cadeia de custódia.
 
 ### Projetos em destaque
 
-**[Analisador de Risco CNPJ](https://github.com/Melquiadesjn/Busca-de-CNPJ-)**
+**[Analisador de Risco CNPJ](https://github.com/Melquiadesjn/analisador-risco-cnpj)**
 Ferramenta OSINT que consulta Receita Federal, Portal da Transparência, DataJud,
 PNCP e listas de sanções (CEIS, CNEP, CEPIM, CEAF), calcula score de risco por
 empresa e exporta relatório. Feita para due diligence e apoio a investigação.
 `Python` · `OSINT` · `dados abertos`
 
-**[Pipeline RAG + QLoRA](https://github.com/Melquiadesjn/Pipeline-Definitivo-)**
+**[Pipeline RAG + QLoRA](https://github.com/Melquiadesjn/lab10-pipeline-rag-qlora)**
 Pipeline ponta a ponta para geração de relatórios clínicos: recuperação de ~15k
 tokens de contexto, LLM quantizado e FlashAttention-2 + KV Cache para evitar OOM.
 `Python` · `RAG` · `QLoRA`
 
-**[Alinhamento com DPO](https://github.com/Melquiadesjn/LAb-8-)**
+**[RAG com HNSW, HyDE e Cross-Encoders](https://github.com/Melquiadesjn/rag-hnsw-hyde-cross-encoders)**
+Arquitetura de recuperação avançada: indexação vetorial HNSW, expansão de
+consulta com documentos hipotéticos (HyDE) e reranking por cross-encoder.
+`Python` · `RAG` · `retrieval`
+
+**[Alinhamento com DPO](https://github.com/Melquiadesjn/lab08-alinhamento-dpo)**
 Implementação de Direct Preference Optimization — a alternativa ao RLHF que
 deriva a política ótima direto dos dados de preferência, sem reward model.
 `Python` · `LLM` · `alinhamento`
